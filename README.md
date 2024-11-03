@@ -9,7 +9,7 @@ Esta aplicación permite gestionar cultivos con Firebase Authentication y Firest
 - Java Development Kit (JDK)
 
 ## Configuración del Proyecto
-1. Clonar el repositorio desde GitHub o descargar el archivo ZIP del proyecto.
+1. Clonar el repositorio desde GitHub "https://github.com/catalinasanjuan/Verduritas_SA.git" o descargar el archivo ZIP del proyecto.
 2. Abrir el proyecto en Android Studio.
 3. Configurar Firebase Authentication:
     - Habilitar Firebase Authentication para correos electrónicos y contraseñas en la consola de Firebase.
