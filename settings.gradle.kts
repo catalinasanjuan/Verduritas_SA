@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "verduritas_fire"
+rootProject.name = "Verduritas SA-CatalinaSanJuan"
 include(":app")
  

@@ -21,6 +21,8 @@ Esta aplicación permite gestionar cultivos con Firebase Authentication y Firest
 
 ## Uso
 1. **Registro/Iniciar sesión**: Permite al usuario registrarse o iniciar sesión con su correo electrónico y contraseña.
+**Usuario de prueba**: clases.inacap.mafer@gmail.com
+**Password**: inacap2024
 2. **Añadir Cultivo**: Seleccionar el tipo de cultivo y la fecha de plantación. La aplicación calculará la fecha de cosecha.
 3. **Lista de Cultivos**: Ver los cultivos registrados y sus fechas de cosecha.
 
