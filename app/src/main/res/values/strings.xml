@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">verduritas_fire</string>
+    <string name="app_logo_description">Logo de la aplicación</string>
+    <string name="tipo_cultivo">Tipo de Cultivo</string>
+    <string name="fecha_de_cultivo">Fecha de Cultivo</string>
+    <string name="fecha_de_cosecha">Fecha de Cosecha</string>
+
+</resources>

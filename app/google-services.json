@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347440904684",
+    "project_id": "verduritasejemplo",
+    "storage_bucket": "verduritasejemplo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347440904684:android:ea6571102233067b7628c9",
+        "android_client_info": {
+          "package_name": "cl.inacap.verduritas_fire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMhZ2_AvxzII7zEWLdj5qJyMOMMYXm8SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

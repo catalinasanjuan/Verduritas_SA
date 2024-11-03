@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#EDE7F6"> <!-- Color de fondo lila suave -->
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de Cultivo"
+        android:textSize="24sp"
+        android:textColor="#5E35B1"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Spinner para seleccionar el tipo de cultivo -->
+    <Spinner
+        android:id="@+id/spinner_tipo_cultivo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:backgroundTint="#5E35B1"
+        android:popupBackground="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_titulo" />
+
+    <!-- Texto y selector de fecha para el cultivo -->
+    <TextView
+        android:id="@+id/tv_fecha_cultivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Cultivo"
+        android:textSize="18sp"
+        android:textColor="#5E35B1"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/spinner_tipo_cultivo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/et_fecha_cultivo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Selecciona la fecha de cultivo"
+        android:padding="12dp"
+        android:focusable="false"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_marginTop="8dp"
+        android:textColor="#5E35B1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_fecha_cultivo" />
+
+    <!-- Botón para registrar el cultivo -->
+    <Button
+        android:id="@+id/btn_registrar_cultivo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar Cultivo"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#7E57C2"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/et_fecha_cultivo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
