@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#EDE7F6">
+    android:background="#E8FACE">
 
     <!-- Título de la pantalla -->
     <TextView
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Lista de Cultivos Registrados"
         android:textSize="24sp"
-        android:textColor="#5E35B1"
+        android:textColor="#3A590A"
         android:layout_marginTop="20dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
