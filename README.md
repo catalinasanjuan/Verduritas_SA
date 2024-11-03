@@ -27,4 +27,4 @@ Esta aplicación permite gestionar cultivos con Firebase Authentication y Firest
 3. **Lista de Cultivos**: Ver los cultivos registrados y sus fechas de cosecha.
 
 ## Contacto
-**Catalina San Juan Crvajal** - [catalina.sanjuan@inacapmail.cl]
+**Catalina San Juan Carvajal** - [catalina.sanjuan@inacapmail.cl]
